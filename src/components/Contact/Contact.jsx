@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div className="Contact">
             <h1>
-                Qalesiz hgdfhjkl
+                Qalesiz Mening Ismim Ogabek
             </h1>
         </div>
     )
