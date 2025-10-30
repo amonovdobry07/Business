@@ -1,0 +1,71 @@
+.UpContact {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #F4F6F8;
+}
+
+.UpContact-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 50px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.UpContact-box {
+    width: 32%;
+    display: flex;
+    gap: 20px;
+    color: #17243E;
+    align-items: center;
+}
+
+.UpContact-left-icon {
+    font-size: 64px;
+}
+
+.UpContact-right-text {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1440px) {
+    .UpContact-left-icon {
+        font-size: 44px;
+    }
+
+    .UpContact-right-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .UpContact {
+        padding: 50px 0;
+    }
+
+    .UpContact-left-icon {
+        font-size: 34px;
+    }
+
+    .UpContact-right-text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .UpContact-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .UpContact-box {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+}

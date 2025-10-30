@@ -1,0 +1,16 @@
+.swiper {
+    width: 100%;
+    max-width: 1440px;
+    height: 550px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.swiper-slide {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
