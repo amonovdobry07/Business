@@ -81,7 +81,7 @@ const Course = () => {
     ];
 
     return (
-        <div className="Course-section">
+        <div className="Course-section" id="kurs">
             <div className="course-section-container">
                 <h1>Kurslar Ro'yxati</h1>
 

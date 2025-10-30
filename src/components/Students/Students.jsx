@@ -89,7 +89,7 @@ const Students = () => {
         }
     ]
     return (
-        <div className="Students">
+        <div className="Students" id="mijozlar">
             <div className="students-container">
                 <h1>Bizning Talabalar</h1>
             </div>

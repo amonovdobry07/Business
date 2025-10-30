@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+}
+
 ul li {
   list-style: none;
 }

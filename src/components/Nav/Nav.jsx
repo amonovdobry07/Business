@@ -17,10 +17,10 @@ const Nav = () => {
                 </div>
                 <div className="desktop-ul-links">
                     <ul>
-                        <a href="#"><li>Home</li></a>
-                        <a href="#"><li>About</li></a>
-                        <a href="#"><li>Service</li></a>
-                        <a href="#"><li>Projects</li></a>
+                        <a href="#"><li>Bosh Sahifa</li></a>
+                        <a href="#kurs"><li>Kurs</li></a>
+                        <a href="#mijozlar"><li>Mijozlar</li></a>
+                        <a href="#manzil"><li>Manzil</li></a>
                     </ul>
                 </div>
                 <div className="desktop-lang-provider">
